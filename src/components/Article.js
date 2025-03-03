@@ -5,11 +5,11 @@ const Article = ({ date, title, image, altText, content }) => {
     <article>
       <p>{date}</p>
       <h2>{title}</h2>
-      <img src={`/${image}`} alt={altText} /> 
+      <img src={`/${image}`} alt={altText} />
       <p>{content}</p>
-      <a href="#" className="continue">Continues ...</a>
+      <a href="javascript:void(0);" className="continue">Continues ...</a>
     </article>
   );
 };
 
-export default Article; 
+export default Article;
