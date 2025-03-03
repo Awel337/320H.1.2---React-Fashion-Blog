@@ -7,9 +7,9 @@ const Article = ({ date, title, image, altText, content }) => {
       <h2>{title}</h2>
       <img src={`/${image}`} alt={altText} />
       <p>{content}</p>
-      <a href="#" className="continue" onClick={(e) => e.preventDefault()}>
+      <button className="continue" onClick={() => alert("Continue reading...")}>
         Continues ...
-      </a>
+      </button>
     </article>
   );
 };
