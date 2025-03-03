@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav";
+import Nav from "./Nav"; 
 
 const Header = () => {
   return (
@@ -11,4 +11,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; 

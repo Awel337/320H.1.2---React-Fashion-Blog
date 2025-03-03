@@ -4,12 +4,12 @@ const Nav = () => {
   return (
     <nav aria-label="Main Navigation" role="navigation">
       <ul className="nav">
-        <li><a href="javascript:void(0);">Women's</a></li>
-        <li><a href="javascript:void(0);">Men's</a></li>
-        <li><a href="javascript:void(0);">On the Street</a></li>
-        <li><a href="javascript:void(0);">The Catwalk</a></li>
-        <li><a href="javascript:void(0);">AdWatch</a></li>
-        <li><a href="javascript:void(0);">About</a></li>
+        <li><a href="#" onClick={(e) => e.preventDefault()}>Women's</a></li>
+        <li><a href="#" onClick={(e) => e.preventDefault()}>Men's</a></li>
+        <li><a href="#" onClick={(e) => e.preventDefault()}>On the Street</a></li>
+        <li><a href="#" onClick={(e) => e.preventDefault()}>The Catwalk</a></li>
+        <li><a href="#" onClick={(e) => e.preventDefault()}>AdWatch</a></li>
+        <li><a href="#" onClick={(e) => e.preventDefault()}>About</a></li>
       </ul>
     </nav>
   );
